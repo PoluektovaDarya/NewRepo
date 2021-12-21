@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Табло желаний</string>
+    <string name="WhatDoYouWant">сон или еда?</string>
+    <string name="_3">:3</string>
+    <string name="_2">)))</string>
+    <string name="addSleep">0</string>
+    <string name="addEat">0</string>
+    <string name="throwOff">Сбросить</string>
+</resources>
