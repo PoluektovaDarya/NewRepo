@@ -104,17 +104,6 @@
         android:onClick="onClickEat"
         android:text="@string/_2" />
 
-    <Button
-        android:id="@+id/buttonThree"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="@dimen/marginStartSixteen"
-        android:layout_marginTop="@dimen/marginTopThirteen"
-        android:onClick="throwOff"
-        android:text="@string/throwOff" />
 
     <TextView
         android:id="@id/imageView"
