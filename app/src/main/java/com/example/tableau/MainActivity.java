@@ -41,12 +41,12 @@ public class MainActivity extends AppCompatActivity {
 
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        outState.putInt("sleep", countFirst);
-        outState.putInt("eat", countSecond);
+        outState.putInt("eat", countFirst);
+        outState.putInt("sleep", countSecond);
     }
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
-        countFirst = savedInstanceState.getInt("sleep");
-        countSecond = savedInstanceState.getInt("eat");
+        countFirst = savedInstanceState.getInt("eat");
+        countSecond = savedInstanceState.getInt("sleep");
     }
 }
