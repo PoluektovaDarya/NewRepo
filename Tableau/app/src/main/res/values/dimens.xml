@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widthOne">765dp</dimen>
+    <dimen name="heightOne">765dp</dimen>
+    <dimen name="marginStartOne">144dp</dimen>
+    <dimen name="marginTopOne">54dp</dimen>
+    <dimen name="imageWidth">103dp</dimen>
+    <dimen name="imageHeight">144dp</dimen>
+    <dimen name="textSize">20dp</dimen>
+    <dimen name="textSizes_">20sp</dimen>
+    <dimen name="marginTop_">161dp</dimen>
+    <dimen name="widthTwo">103dp</dimen>
+    <dimen name="marginStartTwo">268dp</dimen>
+    <dimen name="resource">99dp</dimen>
+    <dimen name="widthThree">103dp</dimen>
+    <dimen name="marginStartThree">21dp</dimen>
+    <dimen name="marginTopThree">100dp</dimen>
+    <dimen name="marginStartFour">63dp</dimen>
+    <dimen name="marginTopFour">286dp</dimen>
+    <dimen name="marginBottomOne">300dp</dimen>
+    <dimen name="horizontalOne">0.522</dimen>
+    <dimen name="verticalOne">1.0</dimen>
+    <dimen name="marginStartFive">330dp</dimen>
+    <dimen name="marginStartSix">28dp</dimen>
+    <dimen name="marginTopFive">352dp</dimen>
+    <dimen name="marginStartSeven">292dp</dimen>
+    <dimen name="marginStartEight">149dp</dimen>
+    <dimen name="marginTopEight">514dp</dimen>
+    <dimen name="widthFour">751dp</dimen>
+
+    <dimen name="marginStartNine">3dp</dimen>
+    <dimen name="marginTopNine">-66dp</dimen>
+    <dimen name="marginStartTen">474dp</dimen>
+    <dimen name="marginTopTen">37dp</dimen>
+    <dimen name="marginStartEleven">179dp</dimen>
+    <dimen name="marginStartTwelve">228dp</dimen>
+    <dimen name="marginStartThirteen">195dp</dimen>
+    <dimen name="marginTopThirteen">218dp</dimen>
+    <dimen name="marginStartFifteen">482dp</dimen>
+    <dimen name="marginStartSixteen">313dp</dimen>
+    <dimen name="marginTopFifteen">-2dp</dimen>
+
+</resources>

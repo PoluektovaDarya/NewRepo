@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:backgroundTint="@color/teal_700">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/widthFour"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/marginStartNine"
+        android:layout_marginTop="@dimen/marginTopNine"
+        app:srcCompat="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/widthThree"
+        android:layout_height="@dimen/resource"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="@dimen/marginStartTen"
+        android:layout_marginTop="@dimen/marginTopTen"
+        app:srcCompat="@drawable/background_1" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="@dimen/widthTwo"
+        android:layout_height="@dimen/resource"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="@dimen/marginStartEleven"
+        android:layout_marginTop="@dimen/marginTopTen"
+        app:srcCompat="@drawable/background_2" />
+
+    <TextView
+        android:id="@+id/countSleep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/marginStartTwelve"
+        android:layout_marginTop="@dimen/marginTop_"
+        android:layout_marginBottom="@dimen/marginBottomOne"
+        android:text="@string/addSleep"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/horizontalOne"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="@dimen/verticalOne" />
+
+    <TextView
+        android:id="@+id/countEat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/horizontalOne"
+        android:layout_marginTop="@dimen/marginTop_"
+        android:layout_marginBottom="@dimen/marginBottomOne"
+        android:text="@string/addEat"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textSizes_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/horizontalOne"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:layout_constraintVertical_bias="@dimen/verticalOne" />
+
+    <Button
+        android:id="@+id/buttonOne"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/marginStartThirteen"
+        android:layout_marginTop="@dimen/marginTopThirteen"
+        android:onClick="onClickSleep"
+        android:text="@string/_3" />
+
+    <Button
+        android:id="@+id/buttonTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/marginStartFifteen"
+        android:layout_marginTop="@dimen/marginTopThirteen"
+        android:onClick="onClickEat"
+        android:text="@string/_2" />
+
+    <Button
+        android:id="@+id/buttonThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/marginStartSixteen"
+        android:layout_marginTop="@dimen/marginTopThirteen"
+        android:onClick="throwOff"
+        android:text="@string/throwOff" />
+
+    <TextView
+        android:id="@id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="@dimen/marginStartSixteen"
+        android:layout_marginTop="@dimen/marginTopFifteen"
+        android:text="@string/WhatDoYouWant"
+        android:textSize="@dimen/textSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>

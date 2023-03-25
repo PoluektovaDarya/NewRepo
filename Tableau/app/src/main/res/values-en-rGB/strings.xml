@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tableau</string>
+    <string name="WhatDoYouWant">sleep or eat?</string>
+    <string name="_3">:3</string>
+    <string name="_2">)))</string>
+    <string name="addSleep">0</string>
+    <string name="addEat">0</string>
+    <string name="throwOff">throwOff</string>
+</resources>
